@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+nav {
+  order: 2;
+  height: 40%;
+  padding: 2rem 2rem 4rem;
+  overflow-y: scroll;
+
+  background-color: rgb(100, 100, 100);
+
+  ul {
+    padding: 0;
+    
+    li {
+      list-style-type: square;
+      list-style-position: inside;
+      
+      a {
+        display: inline-block;
+        padding: 0.5rem 0;
+      }
+    }
+  }
+  
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Titillium Web', Arial, sans-serif;
+  font-size: 1.75rem;
+}
+
+#mini-project-display {
+  box-sizing: border-box;
+  order: 1;
+  height: 60%;
+  border: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+
+  background: #000;
+
+  p {
+    margin: 0;
+  }
+}
